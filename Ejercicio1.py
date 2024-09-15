@@ -34,6 +34,8 @@ class VentanaNombreEdad(QWidget):
         # Centrar las etiquetas
         nombre.setAlignment(Qt.AlignCenter)
         edad.setAlignment(Qt.AlignCenter)
+        nomb.setAlignment(Qt.AlignCenter)
+        eda.setAlignment(Qt.AlignCenter)
 
         # Agregar las etiquetas al layout
         layout.addWidget(nombre)
