@@ -28,6 +28,9 @@ class VentanaNombreEdad(QWidget):
         nombre = QLabel("Elmer Gustavo Gonzalez")
         edad = QLabel("28 años")
 
+        nomb = QLabel("Melvin Alexander Hernandez Rivera")
+        eda = QLabel("20 años")
+
         # Centrar las etiquetas
         nombre.setAlignment(Qt.AlignCenter)
         edad.setAlignment(Qt.AlignCenter)
@@ -35,6 +38,8 @@ class VentanaNombreEdad(QWidget):
         # Agregar las etiquetas al layout
         layout.addWidget(nombre)
         layout.addWidget(edad)
+        layout.addWidget(nomb)
+        layout.addWidget(eda)
 
         self.setLayout(layout)
 
