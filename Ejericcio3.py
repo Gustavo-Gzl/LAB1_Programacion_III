@@ -4,8 +4,7 @@ Construir un programa que muestre una ventana a través de la cual se pueda leer
 Descripción del programa:
 Este programa presenta una ventana donde el usuario puede ingresar su número de cédula y su nombre completo. 
 Usa dos campos de texto (QLineEdit) para capturar esta información y etiquetas (QLabel) para describir qué 
-información se debe introducir. En este ejercicio capturamos los datos de los integrantes del grupo. y al finalizar 
-la ejecucion de la clave secreta con ENTER se cierra la ventana. 
+información se debe introducir.al finalizar la ejecucion de la clave secreta con ENTER se cierra la ventana. 
 
 ¿Qué problema resuelve?
 El programa resuelve el problema de capturar información personal de manera clara y sencilla. 
